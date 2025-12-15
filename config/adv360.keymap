@@ -28,7 +28,7 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp PG_DN &kp N1    &mt N2 LBKT &mt N3 LBRC &mt N4 LPAR &mt N5 GRAVE &tog 1                                                        &mo 3      &mt N6 BSLH &mt N7 RPAR &mt N8 RBRC &mt N9 RBKT &kp N0   &kp PG_UP
+        &kp PG_DN &kp N1    &mt N2 LBKT &mt N3 LBRC &mt N4 LPAR &mt N5 GRAVE &to 1                                                        &mo 3      &mt N6 BSLH &mt N7 RPAR &mt N8 RBRC &mt N9 RBKT &kp N0   &kp PG_UP
         &kp ESC   &kp Q     &kp W       &kp E       &kp R       &kp T        &none                                                         &none      &kp Y       &kp U       &kp I       &kp O       &kp P    &kp BSLH
         &kp TAB   &kp A     &kp S       &kp D       &kp F       &kp G        &none    &kp LCTRL       &kp LEFT_GUI  &kp RCTRL    &kp LALT  &none      &kp H       &kp J       &kp K       &kp L       &kp SEMI &kp SQT
         &kp MINUS &kp Z     &kp X       &kp C       &kp V       &kp B                                 &kp LALT      &kp LEFT_GUI                      &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH &kp EQUAL
@@ -38,7 +38,7 @@
     linux {
       display-name = "Linux";
       bindings = <
-        &kp PG_DN &kp N1    &mt N2 LBKT &mt N3 LBRC &mt N4 LPAR &mt N5 GRAVE &tog 0                                                       &mo 3      &mt N6 BSLH &mt N7 RPAR &mt N8 RBRC &mt N9 RBKT &kp N0   &kp PG_UP
+        &kp PG_DN &kp N1    &mt N2 LBKT &mt N3 LBRC &mt N4 LPAR &mt N5 GRAVE &to 0                                                       &mo 3      &mt N6 BSLH &mt N7 RPAR &mt N8 RBRC &mt N9 RBKT &kp N0   &kp PG_UP
         &kp ESC   &kp Q     &kp W       &kp E       &kp R       &kp T        &none                                                        &none      &kp Y       &kp U       &kp I       &kp O       &kp P    &kp BSLH
         &kp TAB   &kp A     &kp S       &kp D       &kp F       &kp G        &none    &kp LCTRL       &kp LALT     &kp RCTRL    &kp LALT  &none      &kp H       &kp J       &kp K       &kp L       &kp SEMI &kp SQT
         &kp MINUS &kp Z     &kp X       &kp C       &kp V       &kp B                                 &kp LEFT_GUI &kp LEFT_GUI                      &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH &kp EQUAL
@@ -48,7 +48,7 @@
     fn {
       display-name = "Fn";
       bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
+        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6  &none                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
         &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
